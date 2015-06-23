@@ -1,0 +1,194 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b2f2f13926b691e56ae04cd08d51cbe0",
+    "packages": [
+        {
+            "name": "torophp/torophp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anandkunal/ToroPHP.git",
+                "reference": "4e5f5388b2967754cbf57079acccdbac7467160b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anandkunal/ToroPHP/zipball/4e5f5388b2967754cbf57079acccdbac7467160b",
+                "reference": "4e5f5388b2967754cbf57079acccdbac7467160b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Toro.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Martin Bean",
+                    "email": "martin@martinbean.co.uk",
+                    "homepage": "http://www.martinbean.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Kunal Anand",
+                    "email": "kunal.r.anand@gmail.com",
+                    "homepage": "http://kunalanand.com/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Danillo César de O. Melo",
+                    "email": "danillos@gmail.com",
+                    "homepage": "http://www.danillocesar.com.br/",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Robbie Coleman",
+                    "homepage": "http://robbie.robnrob.com",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "John Kurkowski",
+                    "role": "Contributor"
+                },
+                {
+                    "name": "Berker Peksag",
+                    "homepage": "http://berkerpeksag.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jason Mooberry",
+                    "homepage": "http://jasonmooberry.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Toro is a PHP router for developing RESTful web applications and APIs.",
+            "homepage": "http://github.com/anandkunal/ToroPHP",
+            "keywords": [
+                "framework",
+                "php",
+                "router"
+            ],
+            "time": "2015-04-15 21:01:31"
+        },
+        {
+            "name": "usmanhalalit/pixie",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/usmanhalalit/pixie.git",
+                "reference": "d92b4b169452d043efcbb768d4e3eb35c7462735"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/usmanhalalit/pixie/zipball/d92b4b169452d043efcbb768d4e3eb35c7462735",
+                "reference": "d92b4b169452d043efcbb768d4e3eb35c7462735",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "usmanhalalit/viocon": "1.0.*@dev"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Pixie": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Muhammad Usman",
+                    "email": "hi@usman.it",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A lightweight, expressive, framework agnostic query builder for PHP.",
+            "homepage": "https://github.com/usmanhalalit/pixie",
+            "keywords": [
+                "database",
+                "mysql",
+                "postgresql",
+                "query builder",
+                "sql",
+                "sqlite"
+            ],
+            "time": "2014-05-30 13:47:18"
+        },
+        {
+            "name": "usmanhalalit/viocon",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/usmanhalalit/viocon.git",
+                "reference": "0878afee16f15355971fb95bf3c6d297aceff35d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/usmanhalalit/viocon/zipball/0878afee16f15355971fb95bf3c6d297aceff35d",
+                "reference": "0878afee16f15355971fb95bf3c6d297aceff35d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Viocon": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Muhammad Usman",
+                    "email": "hi@usman.it",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple and flexible Dependency Injection container for PHP.",
+            "homepage": "https://github.com/usmanhalalit/viocon",
+            "keywords": [
+                "container",
+                "di",
+                "ioc",
+                "test"
+            ],
+            "time": "2013-07-13 19:54:56"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "usmanhalalit/pixie": 20,
+        "torophp/torophp": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
