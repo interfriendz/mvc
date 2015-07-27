@@ -2,6 +2,7 @@
 
 
 include 'helpers/functions.php';
+include 'helpers/middleware.php';
   $directory = $_SERVER['DOCUMENT_ROOT'] . "/controller/";
 
     
