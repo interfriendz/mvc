@@ -1,8 +1,7 @@
 <?php
 include 'app/framework/Autoloader.php';
 headers();
-include 'app/framework/router.php';
-include 'routes.php';
+
 require 'vendor/autoload.php';
 
 
